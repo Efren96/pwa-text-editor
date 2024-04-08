@@ -6,6 +6,7 @@
   ## Table of Contents
   * [Description](#description)
   * [Installation Instructions](#installation-instructions)
+  * [Implemented Technologies](#implemented-technologies)
   * [Demo](#demo)
   * [Questions](#questions)
 
@@ -13,11 +14,19 @@
   ## Installation Instructions
   1. Clone repository and open in VS Code.
   2. Install required npm packages by running <mark style="background-color:grey"> npm install  </mark> in terminal.
-  3. Invoke application by running <mark style="background-color:grey"> npm run dev  </mark>.
+  3. Invoke application by running <mark style="background-color:grey"> npm run start  </mark>.
 
 
+  ## Implemented Technologies
+  * NodeJS
+  * Express
+  * Concurrently
+  * Webpack
+  * Wokbox 
+  * Babel
+ 
   **Demo** 
-
+https://pwa-text-editor-q527.onrender.com/
 
 
   ## Questions
