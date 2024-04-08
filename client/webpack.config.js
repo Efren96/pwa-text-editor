@@ -17,6 +17,7 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
@@ -24,8 +25,8 @@ module.exports = () => {
       }),
 
       new InjectManifest({
-        swSrc: './src/sw.js',
-        swDest: 'service-worker.js',
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
 
 
